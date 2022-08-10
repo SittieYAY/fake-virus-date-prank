@@ -1,0 +1,29 @@
+Option Explicit
+Dim x,z,y,a,b,c,d,e,f
+
+x=MsgBox("File not working",2+16,"Computer")
+If x=5 then z=msgbox("Virus has been detected" ,0+48, "WARNING")
+
+If x=4 then msgbox"Retrying.." ,0+64, "Computer"
+
+If x=3 then y=msgbox("Why did you chose this? Is this file not important to you? *pouts*",4+32, "Computer-san")
+If y=6 then msgbox"Well, fine." ,0+64, "Computer-san"
+IF y=7 then d=msgbox("Aww >w<" ,0+64, "Computeer-san")
+If d=1 then msgbox"I think something is wrong..{{{(>_<)}}}" ,0+48, "Computer-san"
+
+a=1
+
+Do
+a=a+1
+msgbox"A fatal error has occured."&vbLf&"Please restart your computer." ,0+48, "Error Message"
+Loop until a=8
+
+e=msgbox("Are you free today?" ,4+32, "Your admirer")
+If e=6 then f=msgbox("Will you -out on a date with me?",4+32, "Your admirer")
+If e=7 then msgbox"Hope you have a nice day." ,0+16, "Your admirer"
+
+If f=6 then msgbox"Sige nga, send I love you" ,0+48, "Your admirer"
+If f=7 then msgbox"Awts gege." ,0+64, "Your admirer"
+
+
+
